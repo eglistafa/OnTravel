@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Photos/logo.png">
+  <title>OnTravel</title>
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <div class="nav_bar">
+        <div class="nav_logo"><a href="index.html"><img src="Photos/nav-logo.png"></a></div>
+        <ul class="nav_links">
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="about.html">About Us</a></li>
+          <li class="link"><a href="blog.html">Blog</a></li>
+          <li class="link"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="section_container header_container">
+      <h1>Udhëtoni me ne!</h1>
+      <p>Zbuloni destinacione të mrekullueshme me çmimet më të mira.</p>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="section_container about_container">
+      <div class="about_content">
+        <h2 class="section_header">Rreth nesh</h2>
+        <p class="section_subheader">
+          Misioni ynë është të ndezim frymën e zbulimit në zemrën e çdo udhëtari,
+          duke ofruar itinerare të përpunuara me përpikëri që ndërthurin aktivitetet e rritjes së adrenalinës me peizazhet mahnitëse.
+          Me një ekip të përkushtuar dhe me përvojë, ne sigurojmë që çdo udhëtim të jetë i mbushur me kënaqësi,
+          entuziazëm  dhe momente të paharrueshme. Zhvilloni udhëtimin e jetës me ne,
+          ndërsa ne përcaktojmë artin e eksplorimit.
+        </p>
+        <div class="about_flex">
+          <div class="about_card">
+            <h4>186</h4>
+            <p>Udhëtime të kompletuara</p>
+          </div>
+          <div class="about_card">
+            <h4>113</h4>
+            <p>Guida turistike</p>
+          </div>
+          <div class="about_card">
+            <h4>17</h4>
+            <p>Destinacione</p>
+          </div>
+        </div>
+        <button class="btn">
+          <a href="about.html">Lexo më shumë <i class="ri-arrow-right-line"></i></a></i>
+        </button>
+      </div>
+      <about class="about_image">
+        <img src="Photos/about.jpeg" alt="about">
+      </about>
+    </div>
+  </section>
+
+  <section class="blogs" id="blog">
+    <div class="blogs_container">
+      <h2 class="section_header">Blog</h2>
+      <div class="blogs_grid">
+        <div class="blogs_card">
+          <img src="Photos/blog1.jpg" alt="blog">
+          <div class="blogs_content">
+            <a href="blog-(1).html">Top 5 Destinacionet më fantastike të momentit (Avion + Guidë)</a>
+          </div>
+        </div>
+        <div class="blogs_card">
+          <img src="Photos/blog2.jpg" alt="blog">
+          <div class="blogs_content">
+            <a href="blog-(2).html">Cila është parajsa greke që duhet të vizitoni këtë verë?</a>
+          </div>
+        </div>
+        <div class="blogs_card">
+          <img src="Photos/blog3.jpg" alt="blog">
+          <div class="blogs_content">
+            <a href="blog-(3).html">Pse duhet ta vizitoni Lefkadën ?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section_container contact_container">
+      <div class="contact_col">
+        <h4>Na kontaktoni...</h4>
+        <p>Në shërbimin tuaj 24/7.</p>
+      </div>
+      <div class="contact_col">
+        <div class="contact_card" onclick="callPhoneNumber()">
+          <span><i class="ri-phone-line"></i></span>
+          <h4>Telefono</h4>
+          <h5 id="phoneNumber">+355697384851</h5>
+        </div>
+      </div>
+      <div class="contact_col">
+        <div class="contact_card" onclick="sendEmail()">
+          <span><i class="ri-mail-line"></i></span>
+          <h4>Dërgo një email</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="section_container footer_container">
+      <h4><a href="#home">OnTravel</a></h4>
+      <div class="footer_socials">
+        <span>
+          <a href="https://it-it.facebook.com/eglistafa10" target="_blank"><i class="ri-facebook-fill"></i></a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/eglistafa/" target="_blank"><i class="ri-instagram-line"></i></a>
+        </span>
+        <span>
+          <a href="https://twitter.com/EgliStafa" target="_blank"><i class="ri-twitter-line"></i></a>
+        </span>
+        <span>
+          <a href="https://al.linkedin.com/in/eglison-stafa-624a5b2a0" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        </span>
+      </div>
+      <ul class="footer_nav">
+        <li class="footer_link"><a href="index.html">Home</a></li>
+        <li class="footer_link"><a href="about.html">About us</a></li>
+        <li class="footer_link"><a href="blog.html">Blog</a></li>
+        <li class="footer_link"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer_bar">
+      © 2024 OnTravel - All rights reserved.
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
